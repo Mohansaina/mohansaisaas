@@ -14,6 +14,7 @@ import BlogTeaser from './components/BlogTeaser';
 import Payment from './components/Payment';
 import Footer from './components/Footer';
 import StickyCTA from './components/StickyCTA';
+import AIChat from './components/AIChat';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,6 +38,7 @@ function App() {
       </main>
       <Footer />
       <StickyCTA />
+      <AIChat />
     </div>
   );
 }
